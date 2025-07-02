@@ -4,7 +4,8 @@
 
 ---
 
-## [Click here to watch a Video demonstration of the Application](https://youtu.be/UTxtP0uQNec)
+## [Click here to watch a Video demonstration of the Application ![Preview image](preview.png)](https://youtu.be/UTxtP0uQNec)
+
 ## Purpose & Value Proposition
 
 This project was created as part of a time-boxed challenge to demonstrate business acumen, technical skill, and UI/UX thinking in under 5 hours of development.
