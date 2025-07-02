@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: flask-backend
+    env: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
+    workingDir: backend
+    autoDeploy: true
+
+  - type: web
+    name: vue-frontend
+    env: node
+    plan: free
+    buildCommand: cd frontend && npm install && npm run build
+    startCommand: npm run preview -- --port 3000
+    workingDir: frontend
+    autoDeploy: true
