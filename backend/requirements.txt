@@ -5,3 +5,4 @@ beautifulsoup4==4.12.3
 transformers==4.28.1
 torch==2.5.1
 gunicorn==21.2.0
+tokenizers==0.15.2
